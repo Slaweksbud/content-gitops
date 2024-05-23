@@ -1,1 +1,6 @@
-env | grep GH
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: sbud3
+  name: sbud3
