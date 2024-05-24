@@ -4,3 +4,10 @@ metadata:
   labels:
     name: sbudkasia
   name: sbudkasia
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: asia
+  name: asia
