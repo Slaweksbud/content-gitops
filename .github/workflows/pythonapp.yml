@@ -24,6 +24,7 @@ jobs:
       run: |
         cd ./python
         echo "${{ secrets.DOCKERPW }}" | docker login -u "slawomir.budzynski@veolia.com" --password-stdin
-        docker image build -t slawomir.budzynski@veolia.com/gitops:hellov1.1 .
-        docker push slawomir.budzynski@veolia.com/gitops:hellov1.12
+        docker image build -t sbud/gitops:hellov1.1 .
+        docker push sbud/gitops:hellov1.1
+
 
